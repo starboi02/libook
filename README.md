@@ -8,8 +8,7 @@ Quickly forgetting what we read is common in this era where data and information
 
 1. Fork the repository into your account.
 2. Clone the repo you forked into your computer.
-4. Use the development branch for your commits.
-5. Follow the pr template strictly while making pull requests.
+4. Follow the pr template strictly while making pull requests.
 
 # Bugs
 
