@@ -6,18 +6,8 @@ addBtn.addEventListener('click', handleAdd);
 let i = localStorage.length;
 updateList();
 
-async function handleAdd(e){
+function handleAdd(e){
     e.preventDefault();
-    if(addTxt.value==""){
-        addTxt.style.borderColor = "red";
-        addTxt.style.color = "red";
-        addTxt.setAttribute("value", "Title not entered");
-        await new Promise(r => setTimeout(r, 700));
-        addTxt.style.borderColor = "";
-        addTxt.style.color = "";
-        addTxt.setAttribute("value", "");
-        return;
-    }
     localStorage.setItem(i, addTxt.value);
     insertCard(addTxt.value);
     i++;
