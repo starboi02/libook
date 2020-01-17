@@ -2,7 +2,7 @@
 
 A personal digital library with summaries, goals etc using html, css, and vanilla js.
 
-Quickly forgetting what we read is common in this era where data and information is overflowing. The reason being the limited storage capabilities of our brain. Thus before loosing some of those exceptional statements, motivational quotes, unforgettable moments, important points, jokes you couldn't stop laughing at, you should probably take a backup. Well this application aims to become the library of those precious pieces(at least initially). We are going to use __local storage__ to store the data so that none of your information is leaked. The aplication aims to have an intuitive ui.
+Quickly forgetting what we read is common in this era where data and information is overflowing. The reason being the limited storage capabilities of our brain. Thus before loosing some of those exceptional statements, motivational quotes, unforgettable moments, important points, jokes you couldn't stop laughing at, you should probably take a backup. Well this application aims to become the library of those precious pieces(at least initially). We are going to use __local storage__ to store the data so that none of your information is leaked. The aplication aims to have an intuitive ui. Note that the project currently is nowhere near that. So collaborate to complete this project.
 
 # Setting it up
 
@@ -22,3 +22,7 @@ Quickly forgetting what we read is common in this era where data and information
 
 Any idea would be appreciated, fill in the ideas folder with the text files of your ideas. If the idea is implementable, an issue with that feature would be opened and you would be assigned to it(if you want). The perk is that if you claim your idea issue you would get relatively higher points.
 
+# Local Storage Currently
+
+The data is stored in the following format currentle. The key is the number denoting the title number, while the value is the title itself.
+This will be changed as the project progresses.
