@@ -26,3 +26,6 @@ Any idea would be appreciated, fill in the ideas folder with the text files of y
 
 The data is stored in the following format currentle. The key is the number denoting the title number, while the value is the title itself.
 This will be changed as the project progresses.
+
+# Note
+If you are seeing crappy ui after opening pages/index.html, please check your internet connection. 
