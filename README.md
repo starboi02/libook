@@ -13,8 +13,8 @@ Quickly forgetting what we read is common in this era where data and information
 
 # Bugs
 
-1. Make a file in the bugs folder with appropriate name and with extension txt. Fill it with the bug info. You can also upload an image in the folder with the same name as that of txt.
-2. Make pull request without mentioning 'Fixes #ISSUENUMBER' in the pr description.
+1. Make a file in the bugs folder with appropriate name and with extension txt. Fill it with the bug info. You can also upload an image in the folder with the same name as that of the txt. 
+2. Make a pull request with the issue number of the 'report bugs here' issue i.e 10. Delete the line 'Fixes #ISSUENUMBER' in the pr for this issue.
 3. If the bug is good enough I will merge your pr, and you would get 10 points.
 4. The issue for the bug would be opened by me with the appropriate points tag. You can claim it if you want.
 
