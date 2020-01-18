@@ -9,12 +9,14 @@ updateList();
 function handleAdd(e){
     e.preventDefault();
     localStorage.setItem(i, addTxt.value);
+
     insertCard(addTxt.value);
     i++;
     console.log(localStorage);
 }
 
 function updateList(){
+
     if(localStorage.length > 0) titles.removeChild(titleMessage);
     for(let j = 0; j < localStorage.length; j++){
         insertCard(localStorage.getItem(j));
