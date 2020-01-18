@@ -9,7 +9,8 @@ updateList();
 function handleAdd(e){
     e.preventDefault();
     localStorage.setItem(i, addTxt.value);
-
+    //Removing 'Your title will appear here' message after first input  
+    if(localStorage.length ==1) titles.removeChild(titleMessage);
     insertCard(addTxt.value);
     i++;
     console.log(localStorage);
@@ -24,6 +25,7 @@ function updateList(){
 }
 
 function insertCard(text){
+    
     let myCard = document.createElement('div');
         myCard.className = "card";
         let myCardBody = document.createElement('div');
